@@ -1,0 +1,90 @@
+
+#container {width:1000px;height:100%;text-align: center;margin: 3%;padding: 10%,5%;}
+
+
+
+.horse {
+    width: 95px;
+    height: 80px;
+    position:relative;
+    background-size: contain;
+    border: 2px solid fuchsia;
+    margin: 3px;
+    background-image: url('../Daco_12326.png');
+    transform: rotateY(180deg);
+    background-repeat: no-repeat;
+}
+
+
+
+body{
+    background-image: url('../Daco_615691.png');
+    background-repeat:repeat;
+}
+
+h1{
+    /* background-color: rgb(255, 255, 255); */
+    color: #fc5185;
+    /* margin: 2%; */
+    margin: auto,0;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{align-items: center;margin: 5px;font-size: large;color: #fc5185;}
+
+
+#track {
+    width: 900px;
+    height: 100%;
+    border-right: solid #AA96DA 7px;
+    border-bottom: #AA96DA dotted 6px;
+    border-top: #aa96da dotted 6px;
+    border-left: #aa96da dotted 6px;
+    background-image: url('../Daco_615691.png');
+    background-repeat: repeat-y;
+}
+
+   
+
+  #outerContainer{border: 3px solid #fc5185;position: relative;border-radius: 2%;margin: 12%;padding: 10;position: relative;bottom: 9em;background: linear-gradient(124deg, #95e1d3, #f38181, #fce38a, #ffcfdf, #e0f9b5, #7effdb, #2b1de8, #b693fe, #ff9de2);background-size: 1000% 1000%;z-index:-1;-webkit-animation: rainbow 18s ease infinite;-z-animation: rainbow 15s ease infinite;-o-animation: rainbow 18s ease infinite;animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  } 
+   
+  
+
+
+div#frame {
+    text-align: center;
+    /* padding: 10%; */
+}
+
+div#score {
+    border: solid red 5px;
+    background: #f3e8cb;
+    margin: auto;
+    /* padding-right: 26%; */
+    border: 3px solid #fc5185;
+    width: 400px;
+    position: relative;
+    border-radius: 1.25em;
+}
